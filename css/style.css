@@ -25,7 +25,7 @@ body {
 }
 
 a{
-  color: chartreuse;
+  color: rgb(25, 230, 185);
   text-decoration: none;
 }
 
@@ -35,19 +35,45 @@ h1{
 
 .about__description{
   color: white;
+  display: flex;
+  align-content: center;
 }
 
 /* メンバー */
-.member-section .members {
+.member-section .members { 
+  
+
+}
+
+.section-title{
+  color:chartreuse;
 }
 
 .member {
-}
+   background-color: black;
+   padding: 35px;
+   margin: 30px;
+  }
 
 .member__image img {
+ width: 250px;
+
+  
 }
 
-.member__name {
+.member__name {color: white;
+}
+
+
+.members{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.member-section{
+  background-color: white;
 }
 
 /* ゲーム */
